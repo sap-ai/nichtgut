@@ -1,6 +1,9 @@
-<p>Enter passcode ist gut</p>
+<p id="">Enter passcode ist gut</p>
 <input id="x"></input>
+<button onclick="s()"></button>
 <script>
-  if (document.getElementById("x").innerHTML === "Ist gut.") {
+  function s() {
+    if (document.getElementById("x").innerHTML === "Ist gut.") {
+      document.getElementById("p").innerHTML = "hell.index";
   }
 </script>
